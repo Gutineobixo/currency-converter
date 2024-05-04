@@ -1,0 +1,40 @@
+body {
+      font-family: Calibri;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #ebebe0;
+  }
+  
+  .currency-converter {
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+  }
+  
+  .currency-converter h1 {
+      margin-bottom: 20px;
+  }
+  
+  input, select, button {
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      width: 80%;
+  }
+  
+  button {
+      background-color: #0056b3;
+      color: white;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background-color: #004494;
+  }
+  
