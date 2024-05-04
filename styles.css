@@ -32,9 +32,21 @@ body {
       background-color: #0056b3;
       color: white;
       cursor: pointer;
+      transition: background-color 0.5s;
+  }
+  
+  @keyframes rainbow {
+      0% { background-color: red; }
+      15% { background-color: orange; }
+      30% { background-color: yellow; }
+      45% { background-color: green; }
+      60% { background-color: blue; }
+      75% { background-color: indigo; }
+      90% { background-color: violet; }
+      100% { background-color: red; }
   }
   
   button:hover {
-      background-color: #004494;
+      animation: rainbow 8s infinite linear;
   }
   
